@@ -1,0 +1,326 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 595714
+[00:00:00]: Current time: Sat Mar  9 14:01:17 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: ad1999dc7469
+[00:00:00]: Release(Kernel) Version: 5.4.0-47-generic
+[00:00:00]: Kernel Build Timestamp: #51-Ubuntu SMP Fri Sep 4 19:50:52 UTC 2020
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 595714 LINUX
+[00:00:00]: Build Date: 2293
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: ProfileIndex:4.99
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (140554111837952)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 12347)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: THREAD - started 'StreamInput' (140554090837760)
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:04]:   taskgrouplist:	default	联机版	
+[00:00:04]:   taskgrouplist:	classic	经典	
+[00:00:04]:   taskgrouplist:	cave_default	地下	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:04]: Running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: Failed to load skilltree file itself!	
+[00:00:04]: Trying to apply online cache of skilltree data..	
+[00:00:04]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: ConsoleScreenSettings could not load consolescreen	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:07]: 	Load FE	
+[00:00:07]: THREAD - started 'FilesExistAsyncThread' (140553475847936)
+[00:00:07]: FilesExistAsyncThread started (23603 files)...
+[00:00:07]: 	Load FE: done	
+[00:00:07]: Check for write access: TRUE
+[00:00:07]: Check for read access: TRUE
+[00:00:07]: Available disk space for save files: 27213 MB
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:08]: [200] Account Communication Success (6)
+[00:00:08]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
+[00:00:08]: Received (KU_pwcO8Xsr) from TokenPurpose
+[00:00:08]: Starting Dedicated Server Game	
+[00:00:08]: Network tick rate: U=15(2), D=0
+[00:00:08]: About to start a server with the following settings:
+[00:00:08]:   Dedicated: true
+[00:00:08]:   Online: true
+[00:00:08]:   Passworded: true
+[00:00:08]:   ServerPort: 11000
+[00:00:08]:   SteamAuthPort: 8767
+[00:00:08]:   SteamMasterServerPort: 12347
+[00:00:08]:   ClanID: false
+[00:00:08]:   ClanOnly: false
+[00:00:08]:   ClanAdmin: false
+[00:00:08]:   LanOnly: false
+[00:00:08]:   FriendsOnly: false
+[00:00:08]:   EnableAutosaver: true
+[00:00:08]:   EncodeUserPath: true
+[00:00:08]:   PVP: true
+[00:00:08]:   MaxPlayers: 64
+[00:00:08]:   GameMode: endless
+[00:00:08]:   OverridenDNS: 
+[00:00:08]:   PauseWhenEmpty: true
+[00:00:08]:   IdleTimeout: 1800s
+[00:00:08]:   VoteEnabled: true
+[00:00:08]:   InternetBroadcasting: true
+[00:00:08]: Online Server Started on port: 11000
+[00:00:08]: Not applying level data overrides.	
+[00:00:08]: Found a worldgen override file with these contents:	
+[00:00:08]: 	K: 	override_enabled	 V: 	true	
+[00:00:08]: 	K: 	overrides	 V: 	table: 0x66d30f0	
+[00:00:08]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:08]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:08]: 		K: 	portalresurection	 V: 	always	
+[00:00:08]: 		K: 	resettime	 V: 	none	
+[00:00:08]: 		K: 	start_location	 V: 	default	
+[00:00:08]: 	K: 	settings_preset	 V: 	DST_CAVE	
+[00:00:08]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
+[00:00:08]:   sanity-checking worldgenoverride.lua...	
+[00:00:08]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:08]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:08]:   contained settings preset DST_CAVE, loading...	
+[00:00:08]: Overwriting savedata with override file.	
+[00:00:08]: Collecting garbage...
+[00:00:09]: lua_gc took 0.15 seconds
+[00:00:09]: ~ShardLuaProxy()
+[00:00:09]: ~cEventLeaderboardProxy()
+[00:00:09]: ~ItemServerLuaProxy()
+[00:00:09]: ~InventoryLuaProxy()
+[00:00:09]: ~NetworkLuaProxy()
+[00:00:09]: ~SimLuaProxy()
+[00:00:09]: FilesExistAsyncThread aborted.
+[00:00:09]: ... FilesExistAsyncThread complete
+[00:00:09]: lua_close took 0.19 seconds
+[00:00:09]: ReleaseAll
+[00:00:09]: ReleaseAll Finished
+[00:00:09]: cGame::StartPlaying
+[00:00:09]: AppVersion::GetArchitecture() x64
+[00:00:09]: LOADING LUA
+[00:00:09]: DoLuaFile scripts/main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/main.lua
+[00:00:09]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:11]:   taskgrouplist:	default	联机版	
+[00:00:11]:   taskgrouplist:	classic	经典	
+[00:00:11]:   taskgrouplist:	cave_default	地下	
+[00:00:11]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:11]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:12]: Running main.lua
+	
+[00:00:12]: loaded modindex	
+[00:00:12]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:12]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:12]: Failed to load skilltree file itself!	
+[00:00:12]: Trying to apply online cache of skilltree data..	
+[00:00:12]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:12]: LOADING LUA SUCCESS
+[00:00:12]: PlayerDeaths could not load morgue	
+[00:00:12]: PlayerHistory could not load player_history	
+[00:00:12]: ServerPreferences could not load server_preferences	
+[00:00:12]: ConsoleScreenSettings could not load consolescreen	
+[00:00:12]: bloom_enabled	true	
+[00:00:12]: OnFilesLoaded()	
+[00:00:12]: OnUpdatePurchaseStateComplete	
+[00:00:12]: Loading world: session/297757BA687127FD/0000000004	
+[00:00:12]: Save file is at version 5.142	
+[00:00:12]: Klump load on boot started.	
+[00:00:12]: Klump files loaded: 	0	
+[00:00:13]: 	Unload FE	
+[00:00:13]: 	Unload FE done	
+[00:00:14]: 	LOAD BE	
+[00:00:26]: 	LOAD BE: done	
+[00:00:26]: Begin Session: 297757BA687127FD
+[00:00:26]: saving to server_temp/server_save	
+[00:00:26]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:26]: Loading 19 new character(s)	
+[00:00:28]: Total 19 character(s) loaded	
+[00:00:31]: Loading Nav Grid	
+[00:00:31]: World generated on build 595714 with save version: 5.142, using seed: 1308716824	
+[00:00:31]: setting 	summerlength	15	
+[00:00:31]: setting 	cavemoonphase	new	
+[00:00:31]: setting 	iscavefullmoon	false	
+[00:00:31]: setting 	isnightmaredawn	false	
+[00:00:31]: setting 	elapseddaysinseason	0	
+[00:00:31]: setting 	isfullmoon	false	
+[00:00:31]: setting 	moisture	51.09534072876	
+[00:00:31]: setting 	springlength	20	
+[00:00:31]: setting 	islunarhailing	false	
+[00:00:31]: setting 	isnightmarewild	false	
+[00:00:31]: setting 	nightmaretimeinphase	0.56767421298557	
+[00:00:31]: setting 	precipitationrate	0	
+[00:00:31]: setting 	iswet	false	
+[00:00:31]: setting 	isnewmoon	false	
+[00:00:31]: setting 	israining	false	
+[00:00:31]: setting 	iswinter	false	
+[00:00:31]: setting 	isnightmarewarn	false	
+[00:00:31]: setting 	precipitation	none	
+[00:00:31]: setting 	iscavewaxingmoon	true	
+[00:00:31]: setting 	isacidraining	false	
+[00:00:31]: setting 	moonphase	new	
+[00:00:31]: setting 	remainingdaysinseason	20	
+[00:00:31]: setting 	temperature	19.910203824594	
+[00:00:31]: setting 	wetness	0	
+[00:00:31]: setting 	cycles	0	
+[00:00:31]: setting 	moistureceil	661.12341308594	
+[00:00:31]: setting 	isday	false	
+[00:00:31]: setting 	winterlength	15	
+[00:00:31]: setting 	season	autumn	
+[00:00:31]: setting 	iswaxingmoon	true	
+[00:00:31]: setting 	isalterawake	false	
+[00:00:31]: setting 	isnightmarecalm	true	
+[00:00:31]: setting 	isnight	true	
+[00:00:31]: setting 	isdusk	false	
+[00:00:31]: setting 	isspring	false	
+[00:00:31]: setting 	isautumn	true	
+[00:00:31]: setting 	iscaveday	true	
+[00:00:31]: setting 	lunarhaillevel	0	
+[00:00:31]: setting 	pop	0.077285631876598	
+[00:00:31]: setting 	snowlevel	0	
+[00:00:31]: setting 	issnowcovered	false	
+[00:00:31]: setting 	autumnlength	20	
+[00:00:31]: setting 	phase	night	
+[00:00:31]: setting 	nightmaretime	204.3627166748	
+[00:00:31]: setting 	issnowing	false	
+[00:00:31]: setting 	iscavedusk	false	
+[00:00:31]: setting 	nightmarephase	calm	
+[00:00:31]: setting 	timeinphase	0.84662164052327	
+[00:00:31]: setting 	seasonprogress	0.5	
+[00:00:31]: setting 	iscavenight	false	
+[00:00:31]: setting 	iscavenewmoon	false	
+[00:00:31]: setting 	issummer	false	
+[00:00:31]: setting 	cavephase	day	
+[00:00:31]: setting 	time	0.42331082026164	
+[00:00:31]: [Shard] Secondary shard is waiting for LUA...
+[00:00:31]: OVERRIDE: setting	resettime	to	none	
+[00:00:31]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:31]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:31]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:34]: SWITCHING 	false	
+[00:00:34]: Reconstructing topology	
+[00:00:34]: 	...Sorting points	
+[00:00:34]: 	...Sorting edges	
+[00:00:34]: 	...Connecting nodes	
+[00:00:34]: 	...Validating connections	
+[00:00:35]: 	...Housekeeping	
+[00:00:35]: 	...Done!	
+[00:00:35]: 1 uploads added to server. From server_temp
+[00:00:35]: About to start a shard with these settings:
+[00:00:35]:   ShardName: Caves
+[00:00:35]:   ShardID: 1741647471
+[00:00:35]:   ShardRole: SECONDARY
+[00:00:35]:   MasterHost: 127.0.0.1
+[00:00:35]:   MasterBind: (null)
+[00:00:35]:   MasterPort: 10998
+[00:00:35]: [Shard] Connecting to master...
+[00:00:35]: Telling Client our new session identifier: 297757BA687127FD
+[00:00:35]: Check for write access: TRUE
+[00:00:35]: Check for read access: TRUE
+[00:00:35]: Available disk space for save files: 27213 MB
+[00:00:35]: ModIndex: Load sequence finished successfully.	
+[00:00:35]: Reset() returning
+[00:00:35]: [Shard] Sending secondary shard information to master...
+[00:00:35]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:35]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:35]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:35]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:35]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:35]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:35]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:35]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:35]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:35]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:36]: Received MasterInfoPacket row d32dc474d498dc78af610309f8e86fd4 region eu-central-1
+[00:00:36]: Obtaining secondary shard IP from eu-central-1 lobby
+[00:00:37]: [Shard] secondary shard is now ready!
+[00:00:37]: World 1 is now connected	
+[00:00:37]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:00:37]: Validating portal[10] <-> 1[10] (active)	
+[00:00:37]: Validating portal[1] <-> 1[1] (active)	
+[00:00:37]: Validating portal[2] <-> 1[2] (active)	
+[00:00:37]: Validating portal[3] <-> 1[3] (active)	
+[00:00:37]: Validating portal[4] <-> 1[4] (active)	
+[00:00:37]: Validating portal[5] <-> 1[5] (active)	
+[00:00:37]: Validating portal[6] <-> 1[6] (active)	
+[00:00:37]: Validating portal[8] <-> 1[8] (active)	
+[00:00:37]: Validating portal[9] <-> 1[9] (active)	
+[00:00:37]: Validating portal[7] <-> 1[7] (active)	
+[00:00:37]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:37]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:37]: component hauntable already exists on entity 102755 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:37]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:37]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:37]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:37]: component hauntable already exists on entity 102755 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:37]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:38]: [Shard] secondary shard LUA is now ready!
+[00:00:38]: Sim paused
+[00:04:34]: Received MasterInfoPacket row 8e869608e14ccf90bf3f9be2c916ecf5 region us-east-1
+[00:04:34]: Obtaining secondary shard IP from us-east-1 lobby
+[00:06:27]: Received MasterInfoPacket row 853672ea6b4e2f2f4ede3404714b9567 region eu-central-1
+[00:06:27]: Obtaining secondary shard IP from eu-central-1 lobby
+[00:06:45]: Available disk space for save files: 27213 MB
+[00:06:46]: Serializing world: session/297757BA687127FD/0000000005
+[00:06:46]: [Shard] Stopping shard mode
+[00:06:46]: [Steam] SendUserDisconnect for ''
+[00:06:46]: Collecting garbage...
+[00:06:46]: lua_gc took 0.41 seconds
+[00:06:46]: ~ShardLuaProxy()
+[00:06:46]: ~cEventLeaderboardProxy()
+[00:06:46]: ~ItemServerLuaProxy()
+[00:06:46]: ~InventoryLuaProxy()
+[00:06:46]: ~NetworkLuaProxy()
+[00:06:46]: ~SimLuaProxy()
+[00:06:47]: lua_close took 0.43 seconds
+[00:06:47]: CurlRequestManager::ClientThread::Main() complete
+[00:06:47]: HttpClient2 discarded 0 callbacks.
+[00:06:47]: Shutting down
